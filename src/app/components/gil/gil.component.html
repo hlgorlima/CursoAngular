@@ -1,0 +1,11 @@
+<div class="class">
+  <h1>O zé é foda</h1>
+  <input #idNome />
+  <select #idSaudacao>
+    <option>Bom dia</option>
+    <option>Boa Tarde</option>
+    <option>Boa Noite | lowercase </option>
+  </select>
+  <button (click)="onClick(idNome.value, idSaudacao.value)">Clique aqui</button>
+  <p>{{ mensagem }}</p>
+</div>
